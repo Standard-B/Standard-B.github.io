@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "BMHANNAPro";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BMDOHYEON";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GoryeongStrawberry';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-size {
+  font-size: 14px;
+}
+
+.font-size-sm {
+  font-size: 13px;
+}
+
+.font-mochiy {
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.font-noto {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.font-zen {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+body {
+  background-color: #F6F7FF;
+}
+
+.fixed {
+  position: fixed;
+  left: 22%;
+  transform: translate(-50%, 0);
+  background-color: #425CE0;
+  border-radius: 20px;
+  width: 270px; 
+  padding-left: 30px;
+}
+
+.fixed .fs-3 {
+  font-family: BMHANNAPro;
+  color: white;
+}
+
+.home-box {
+  background-color: #425CE0;
+  border-radius: 20px;
+  font-family: 'Mochiy Pop One', sans-serif;
+  padding: 50px; 
+  background-color: #425CE0;
+}
+
+.home-box p {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.home-box-btn {
+  height: 45px;
+  border: 0;
+  border-radius: 30px;
+  box-shadow: 5px 5px white;
+  background-color: #3AEBB6;
+  color: #425CE0;
+}
+
+#item-2,
+#item-3,
+#item-4 {
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#item-2 h4,
+#item-3 h4,
+#item-4 h4 {
+  font-family: GoryeongStrawberry;
+}
+
+#item-2 img {
+  border-radius: 50%;
+  width: 160px; 
+  height: 160px; 
+  object-fit: cover;
+}
